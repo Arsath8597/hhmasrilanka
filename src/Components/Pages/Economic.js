@@ -2,7 +2,7 @@ import React from 'react';
 import { TERipple } from 'tw-elements-react';
 import img1 from '../../images/swarajya_2022-05_085ad5a7-2788-42fb-af46-a8c04ea4a44f_FI3.avif'
 
-export const CleanWater = () => {
+const CleanWater = () => {
   return (
       <div
         className=" rounded-lg xl:px-28 mt-28  bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]">

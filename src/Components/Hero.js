@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React from "react";
 import Slider from "react-slick";
 
 import { Link } from "react-router-dom";
@@ -7,24 +7,42 @@ import "slick-carousel/slick/slick-theme.css";
 import Logo1 from "../images/WhatsApp Image 2023-07-24 at 13.49.12.jpeg"
 import Logo8 from "../images/WhatsApp Image 2024-01-03 at 19.00.55_e8264ce5.jpg"
 import Logo2 from "../images/IMG-20230503-WA0114.jpg"
+import img14 from "../images/WhatsApp Image 2024-06-30 at 11.35.15 AM (1).jpeg";
 import Logo3 from "../images/IMG-20231006-WA0013.jpg"
 import Logo4 from "../images/IMG_20230319_162251.jpg"
 import Logo5 from "../images/WhatsApp Image 2023-10-25 at 15.20.18.jpeg"
 import Logo6 from '../images/WhatsApp Image 2023-10-25 at 15.17.58.jpeg'
 import Logo7 from '../images/WhatsApp Image 2023-10-25 at 15.34.36.jpeg'
 
-class App extends Component{
-  render(){
+const Hero=()=>{
+
  
     return(
       
       <div id="project"  className="  md:grid md:grid-cols-2 xl:grid-cols-3 md:grid-rows-1 mt-10  mb-14 " >
+
+<div className="max-w-xs lg:mb-40 mx-auto mb-16  bg-[#DAF3F4] h-[520px]   shadow-xl border-yellow-200 rounded-xl  overflow-hidden">
+      <img
+        className=" mt-10  object-cover"
+        src={img14}
+        alt="Card"
+      />
+      
+      
+      <div className="px-6 py-4">
+        <h2 className="text-xl text-center font-semibold ">Qurbani - 2024 - Sri Lanka </h2>
+        <p className=" text-center text-gray-600">
+        We shared our joys on Eid al-Adha.😊 Your small donation make  .....
+        </p>
+        <Link type="button" to="/qurbani" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 text-center ml-20 mt-2">See More</Link> </div>
+    </div> 
        <div className="max-w-xs lg:mb-40 mx-auto mb-16  bg-[#DAF3F4] h-[520px]   shadow-xl border-yellow-200 rounded-xl  overflow-hidden">
       <img
         className=" mt-10  object-cover"
         src={Logo8}
         alt="Card"
       />
+
       
       <div className="px-6 py-4">
         <h2 className="text-xl text-center font-semibold ">Water Is Life </h2>
@@ -64,23 +82,6 @@ class App extends Component{
       
       </div>
     </div>
-
-    {/* <div className="max-w-xs mx-auto bg-[#DAF3F4] shadow-xl h-[500px] border-yellow-200 rounded-xl  overflow-hidden">
-      <img
-        className="w-[40%] ml-[30%] mt-8 object-cover"
-        src={Logo3}
-        alt="Card"
-      />
-      
-      <div className="px-6 py-4">
-        <h2 className="text-xl text-center font-semibold text-gray-800">SnapChat</h2>
-        <p className="mt-2 text-center text-gray-600">
-          This is the content of your card. You can add more details here.
-        </p>
-        <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 text-center ml-20 mt-2">See More</button>
-      
-      </div>
-    </div> */}
     <div className="max-w-xs mx-auto mb-16 lg:mb-0 bg-[#DAF3F4] h-[520px] shadow-xl border-yellow-200 rounded-xl  overflow-hidden">
     <img
         className=" mt-10  object-cover"
@@ -147,6 +148,6 @@ class App extends Component{
       </div>
     );
   }
-}
 
-export default App;
+
+export default Hero;

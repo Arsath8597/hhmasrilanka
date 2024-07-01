@@ -5,7 +5,7 @@ import Footer from './Components/Footer';
 import Slider from './Components/Slider';
 import Phara from './Components/Phara'
 import Landing from './Components/Landing';
-
+import ScrollToTop from './Components/ScrollTop';
 import About from './Components/Pages/About';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import { Home } from 'react-feather';
@@ -17,18 +17,20 @@ import WaterStation from './Components/Pages/WaterStation'
 import Sadaqa from './Components/Pages/Sadaqa'
 import WaterWell from './Components/Pages/Waterwell'
 import WaterLife from './Components/Pages/WaterLife'
-
+import Qurbani from './Components/Pages/Qurbani';
 
 function App() {
   return (
  
-    <div  className=' overflow-hidden'>
+    <div  className=' overflow-hidden font-serif'>
      <BrowserRouter>
+     <ScrollToTop/>
    <Header/>
    
    <Routes>
     <Route index element={<Landing/>} />
       <Route path='/about' element={<About/>}/>
+      <Route path='/qurbani' element={<Qurbani/>}/>
       <Route path='/home' element={<Slider/>}/>
       <Route path='/Economic' element={<Economic/>}/>
       <Route path='/CleanWater' element={<CleanWater/>}/>
