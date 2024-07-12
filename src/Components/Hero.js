@@ -51,7 +51,7 @@ const Hero=()=>{
         </p>
         <Link type="button" to="/WaterLife" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 text-center ml-20 mt-2">See More</Link> </div>
     </div>  
-    <div className="max-w-xs lg:mb-40 mx-auto mb-16  bg-[#DAF3F4] h-[520px]   shadow-xl border-yellow-200 rounded-xl  overflow-hidden">
+    {/* <div className="max-w-xs lg:mb-40 mx-auto mb-16  bg-[#DAF3F4] h-[520px]   shadow-xl border-yellow-200 rounded-xl  overflow-hidden">
       <img
         className=" mt-10  object-cover"
         src={Logo1}
@@ -64,7 +64,7 @@ const Hero=()=>{
         1 in 3 people do not have access to clean drinking water.....
         </p>
         <Link type="button" to="/CleanWater" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 text-center ml-20 mt-2">See More</Link> </div>
-    </div>
+    </div> */}
 
     <div className="max-w-xs mx-auto mb-16 lg:mb-0 bg-[#DAF3F4] h-[530px] shadow-xl border-yellow-200 rounded-xl  overflow-hidden">
     <img
