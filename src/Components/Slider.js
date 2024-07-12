@@ -6,7 +6,7 @@ import img8 from "../images/IMG-20220801-WA0029.jpg";
 import img2 from "../images/WhatsApp Image 2024-01-03 at 19.00.57_8e693c53.jpg";
 import img9 from "../images/WhatsApp Image 2023-07-24 at 12.48.26 (1).jpeg";
 import img3 from "../images/WhatsApp Image 2024-01-03 at 19.00.57_eebcbef5.jpg";
-import img14 from "../images/WhatsApp Image 2024-06-30 at 11.35.15 AM (1).jpeg";
+
 import img10 from "../images/IMG_20230319_162251.jpg";
 import img12 from "../images/IMG-20240105-WA0070.jpg";
 import img11 from "../images/IMG-20220801-WA0014.jpg";
@@ -15,6 +15,7 @@ import img5 from "../images/IMG-20231006-WA0013.jpg";
 import img6 from "../images/WhatsApp Image 2023-10-25 at 15.20.16.jpeg";
 import img7 from "../images/WhatsApp Image 2023-10-25 at 15.20.21.jpeg";
 import img13 from "../images/WhatsApp Image 2024-06-30 at 11.35.12 AM (1).jpeg";
+import img14 from "../images/WhatsApp Image 2024-06-30 at 11.35.15 AM (1).jpeg";
 
 const AutoSlider = () => {
   const slides = [

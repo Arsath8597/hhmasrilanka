@@ -72,7 +72,6 @@ const Hero=()=>{
         src={Logo2}
         alt="Card"
       />
-      
       <div className="px-6 py-4">
         <h2 className="text-xl text-center font-semibold text-gray-800">Zakat AL-Mal</h2>
         <p className="mt-2 text-center text-gray-600">

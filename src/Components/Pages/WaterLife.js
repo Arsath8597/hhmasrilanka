@@ -1,9 +1,9 @@
 import React from 'react';
-import { TERipple } from 'tw-elements-react';
 import img1 from '../../images/IMG-20240105-WA0067.jpg'
 import img2 from '../../images/WhatsApp Image 2024-01-03 at 19.00.55_e8264ce5.jpg'
 import img3 from '../../images/WhatsApp Image 2024-01-03 at 19.00.57_8e693c53.jpg'
 import img4 from '../../images/WhatsApp Image 2024-01-03 at 19.00.57_eebcbef5.jpg'
+
 export const CleanWater = () => {
   return (
       <div
