@@ -1,5 +1,6 @@
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { motion } from 'framer-motion'
 import { Carousel } from "react-responsive-carousel";
 import img1 from "../images/WhatsApp Image 2024-01-03 at 19.00.55_e8264ce5.jpg";
 import img8 from "../images/IMG-20220801-WA0029.jpg";
@@ -109,7 +110,8 @@ const AutoSlider = () => {
   ];
 
   return (
-    <div className="w-full " id="home">
+    <motion.div 
+ className="w-full " id="home">
       <Carousel
         autoPlay={true}
         interval={1500}
@@ -130,7 +132,7 @@ const AutoSlider = () => {
           </div>
         ))}
       </Carousel>
-    </div>
+    </motion.div>
   );
 };
 

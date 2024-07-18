@@ -5,6 +5,7 @@ import {FaBars,FaTimes} from 'react-icons/fa'
 import Logo from '../images/hhmalogo (1).jpg'
 
 import { Link } from "react-router-dom";
+import { motion } from 'framer-motion';
 
 
 const Header = () => {
@@ -55,7 +56,10 @@ const Header = () => {
        
   </div>
   {/* Mobile menu */}
-  <div  className={nav ? ' md:hidden text-black  absolute top-0 right-0 bottom-0 left-0 flex justify-center items-center w-full h-screen bg-black  text-center ease-in-out duration-500':'md:hidden  absolute top-0 right-0 bottom-0 left-[-100%] flex justify-center items-center w-full h-screen bg-slate-500  text-center ease-in-out duration-500 '}>
+  <motion.div 
+    initial={{opacity:0,y:100}}
+    animate={{opacity:1,y:0}}
+    transition={{duration:1,ease:"easeOut",delay:0.9}}  className={nav ? ' md:hidden text-black  absolute top-0 right-0 bottom-0 left-0 flex justify-center items-center w-full h-screen bg-black  text-center ease-in-out duration-500':'md:hidden  absolute top-0 right-0 bottom-0 left-[-100%] flex justify-center items-center w-full h-screen bg-slate-500  text-center ease-in-out duration-500 '}>
   <ul>
     
     <li onClick={handleHamClick} className='p-4 text-2xl hover:text-gray-900  text-white '>
@@ -71,7 +75,7 @@ const Header = () => {
    <Link to="/about"><button onClick={handleHamClick} className='type="button" class="focus:outline-none text-black bg-[#808080] hover:bg-white hover:text-black focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-green-600 dark:hover:bg-white dark:focus:ring-green-800" '>Contact Us</button></Link>
    
   </ul>
-  </div>
+  </motion.div>
   </div>
 </div>
 

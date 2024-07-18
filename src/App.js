@@ -18,6 +18,7 @@ import Sadaqa from './Components/Pages/Sadaqa'
 import WaterWell from './Components/Pages/Waterwell'
 import WaterLife from './Components/Pages/WaterLife'
 import Qurbani from './Components/Pages/Qurbani';
+import HandePump from './Components/Pages/HandePump';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
    <Routes>
     <Route index element={<Landing/>} />
       <Route path='/about' element={<About/>}/>
+      <Route path='/handePump' element={<HandePump/>}/>
       <Route path='/qurbani' element={<Qurbani/>}/>
       <Route path='/home' element={<Slider/>}/>
       <Route path='/Economic' element={<Economic/>}/>
