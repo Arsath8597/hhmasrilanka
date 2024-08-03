@@ -12,17 +12,18 @@ import Logo4 from "../images/IMG_20230319_162251.jpg"
 import Logo5 from "../images/WhatsApp Image 2023-10-25 at 15.20.18.jpeg"
 import Logo6 from '../images/WhatsApp Image 2023-10-25 at 15.17.58.jpeg'
 import Logo7 from '../images/WhatsApp Image 2023-10-25 at 15.34.36.jpeg'
+import Logo18 from '../images/WhatsApp Image 2024-08-03 at 20.08.41 (2).jpeg'
 
 const Hero=()=>{
 
  
     return(
       
-      <div id="project"  className="  md:grid md:grid-cols-2 xl:grid-cols-3 md:grid-rows-1 mt-10  mb-14 " >
+      <div id="project"  className="  md:grid md:grid-cols-2 xl:grid-cols-3 md:grid-rows-1 mt-8  mb-14 " >
 <div className="max-w-xs lg:mb-40 mx-auto mb-16  bg-[#DAF3F4] h-[450px] lg:h-[520px]   shadow-xl border-yellow-200 rounded-xl  overflow-hidden">
       <img
-        className=" mt-10  object-cover"
-        src={img15}
+        className=" mt-8  object-cover"
+        src={Logo18}
         alt="Card"
       />
       
@@ -30,7 +31,7 @@ const Hero=()=>{
       <div className="px-6 py-4">
         <h2 className="text-xl text-center font-semibold ">💧SRI LANKA DEEP WATER WELL💧 </h2>
         <p className=" text-center text-gray-600">
-        Thanks 🎉to the dedication and hard work of our charity Founder & President Mr. Mohamed Arshath.....
+        Thanks 🎉to the dedication and hard work of our charity Founder .....
         </p>
         <Link type="button" to="/waterwellforcommunity" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 text-center ml-20 mt-2">See More</Link> </div>
     </div> 
