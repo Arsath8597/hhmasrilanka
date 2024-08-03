@@ -28,11 +28,26 @@ const Hero=()=>{
       
       
       <div className="px-6 py-4">
+        <h2 className="text-xl text-center font-semibold ">💧SRI LANKA DEEP WATER WELL💧 </h2>
+        <p className=" text-center text-gray-600">
+        Thanks 🎉to the dedication and hard work of our charity Founder & President Mr. Mohamed Arshath.....
+        </p>
+        <Link type="button" to="/waterwellforcommunity" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 text-center ml-20 mt-2">See More</Link> </div>
+    </div> 
+<div className="max-w-xs lg:mb-40 mx-auto mb-16  bg-[#DAF3F4] h-[450px] lg:h-[520px]   shadow-xl border-yellow-200 rounded-xl  overflow-hidden">
+      <img
+        className=" mt-10  object-cover"
+        src={img15}
+        alt="Card"
+      />
+      
+      
+      <div className="px-6 py-4">
         <h2 className="text-xl text-center font-semibold ">Hand Pump for Family </h2>
         <p className=" text-center text-gray-600">
         Increasing access to clean water remains a pressing challenge globally. Helping Hands of Muslim .....
         </p>
-        <Link type="button" to="/handePump" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 text-center ml-20 mt-2">See More</Link> </div>
+        <Link type="button" to="/handpump" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 text-center ml-20 mt-2">See More</Link> </div>
     </div> 
 <div className="max-w-xs lg:mb-40 mx-auto mb-16  bg-[#DAF3F4] h-[520px]   shadow-xl border-yellow-200 rounded-xl  overflow-hidden">
       <img

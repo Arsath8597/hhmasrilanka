@@ -141,9 +141,9 @@ const Qurbani = () => {
     <p>To everyone who has donated a hand pump for families through HHMA Sri Lanka, thank you. You're our heroes and theirs. 💧❤️
 
 To donate a water hand pump, visit www.hhmasrilanka.org or call +94 76 731 3385.
-
-📩 info@hhmasrilanka.org 
-hhmasrilanka@gmail.com </p>
+<br/>
+📩 <br/>info@hhmasrilanka.org <br/>
+    hhmasrilanka@gmail.com </p>
 
         </div>
       </div>

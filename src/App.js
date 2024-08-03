@@ -19,6 +19,7 @@ import WaterWell from './Components/Pages/Waterwell'
 import WaterLife from './Components/Pages/WaterLife'
 import Qurbani from './Components/Pages/Qurbani';
 import HandePump from './Components/Pages/HandePump';
+import Waterwellforcommunity from './Components/Pages/waterwellforcommunity'
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
    <Routes>
     <Route index element={<Landing/>} />
       <Route path='/about' element={<About/>}/>
-      <Route path='/handePump' element={<HandePump/>}/>
+      <Route path='/waterwellforcommunity' element={<Waterwellforcommunity/>}/>
+      <Route path='/handpump' element={<HandePump/>}/>
       <Route path='/qurbani' element={<Qurbani/>}/>
       <Route path='/home' element={<Slider/>}/>
       <Route path='/Economic' element={<Economic/>}/>
