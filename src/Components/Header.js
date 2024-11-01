@@ -44,7 +44,7 @@ const Header = () => {
         </nav>
 
         {/* Contact Us Button - Desktop */}
-        <Link to="/contact" className="hidden md:inline-block">
+        <Link to="/about" className="hidden md:inline-block">
           <button className="bg-gray-800 text-white hover:bg-gray-900 px-4 py-2 rounded-lg transition">
             Contact Us
           </button>
@@ -86,7 +86,7 @@ const Header = () => {
           </li>
         </ul>
 
-        <Link to="/contact" onClick={toggleNav}>
+        <Link to="/about" onClick={toggleNav}>
           <button className="bg-white text-gray-800 hover:bg-gray-200 px-5 py-2 rounded-lg transition">
             Contact Us
           </button>
