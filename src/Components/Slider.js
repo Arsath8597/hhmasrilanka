@@ -1,13 +1,12 @@
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { motion } from 'framer-motion'
+import { motion } from "framer-motion";
 import { Carousel } from "react-responsive-carousel";
 import img1 from "../images/WhatsApp Image 2024-01-03 at 19.00.55_e8264ce5.jpg";
 import img8 from "../images/IMG-20220801-WA0029.jpg";
 import img2 from "../images/WhatsApp Image 2024-01-03 at 19.00.57_8e693c53.jpg";
 import img9 from "../images/WhatsApp Image 2023-07-24 at 12.48.26 (1).jpeg";
 import img3 from "../images/WhatsApp Image 2024-01-03 at 19.00.57_eebcbef5.jpg";
-
 import img10 from "../images/IMG_20230319_162251.jpg";
 import img12 from "../images/IMG-20240105-WA0070.jpg";
 import img11 from "../images/IMG-20220801-WA0014.jpg";
@@ -20,112 +19,45 @@ import img14 from "../images/WhatsApp Image 2024-06-30 at 11.35.15 AM (1).jpeg";
 
 const AutoSlider = () => {
   const slides = [
-    {
-      image: img14,
-      text: "Qurbani",
-    
-      buttonLink: "#", // Replace with your link
-    },
-    {
-      image: img13,
-      text: "Qurbani",
-    
-      buttonLink: "#", // Replace with your link
-    },
-    {
-      image: img1,
-      text: "WATER AID",
-    
-      buttonLink: "#", // Replace with your link
-    },
-    {
-      image: img2,
-      text: "WATER AID",
-    
-      buttonLink: "#", // Replace with your link
-    },
-  
-    {
-        image: img3,
-        text: "Support The Needy All Year Round",
-     
-      },
-      {
-        image: img4,
-        text: "Our Donation",
-      
-      },
-      {
-        image: img5,
-        text: "Sri Lanka Economic Crisis Appeal",
-    
-      },
-      {
-        image: img6,
-        text: "Emergency Appeals",
-
-      },
-      {
-        image: img7,
-        text: "Our Projects",
-     
-      },
-      {
-        image: img3,
-        text: "DONATE GENEROUSLY THIS MUHARRAM",
-     
-      },
-      {
-        image: img8,
-        text: "DONATE GENEROUSLY THIS MUHARRAM",
-     
-      },
-
-      {
-        image: img9,
-        text: "DONATE GENEROUSLY THIS MUHARRAM",
-     
-      },
-
-      {
-        image: img10,
-        text: "DONATE GENEROUSLY THIS MUHARRAM",
-     
-      },
-
-      {
-        image: img11,
-        text: "DONATE GENEROUSLY THIS MUHARRAM",
-     
-      },
-      {
-        image: img12,
-        text: "DONATE GENEROUSLY THIS MUHARRAM",
-     
-      },
-
-
-
-    // Add more slides as needed
+    { image: img14, text: "Qurbani" },
+    { image: img13, text: "Qurbani" },
+    { image: img1, text: "WATER AID" },
+    { image: img2, text: "WATER AID" },
+    { image: img3, text: "Support The Needy All Year Round" },
+    { image: img4, text: "Our Donation" },
+    { image: img5, text: "Sri Lanka Economic Crisis Appeal" },
+    { image: img6, text: "Emergency Appeals" },
+    { image: img7, text: "Our Projects" },
+    { image: img3, text: "DONATE GENEROUSLY THIS MUHARRAM" },
+    { image: img8, text: "DONATE GENEROUSLY THIS MUHARRAM" },
+    { image: img9, text: "DONATE GENEROUSLY THIS MUHARRAM" },
+    { image: img10, text: "DONATE GENEROUSLY THIS MUHARRAM" },
+    { image: img11, text: "DONATE GENEROUSLY THIS MUHARRAM" },
+    { image: img12, text: "DONATE GENEROUSLY THIS MUHARRAM" },
   ];
 
   return (
-    <motion.div 
- className="w-full " id="home">
+    <motion.div className="w-full" id="home">
       <Carousel
-        autoPlay={true}
-        interval={1500}
+        autoPlay
+        interval={2500}
         showStatus={false}
-        infiniteLoop={true}
-      
+        infiniteLoop
+        showThumbs={false}
       >
         {slides.map((slide, index) => (
-          <div key={index} className="w-full px-2 shadow-xl rounded-2xl xl:px-28 lg:h-[120vh] lg:mt-[100px] mt-20  xl:mt-[-150px]">
-            <img src={slide.image} alt={`Slide ${index + 1}`}  className=""/>
+          <div
+            key={index}
+            className="relative w-full px-4 lg:px-16 rounded-lg overflow-hidden shadow-lg"
+          >
+            <img
+              src={slide.image}
+              alt={`Slide ${index + 1}`}
+              className="object-cover w-full h-[60vh] md:h-[80vh] lg:h-[90vh]"
+            />
 
-            <div className="absolute top-56 md:top-[500px] left-0  right-40 opacity-60 bottom-0 flex flex-col justify-center items-center">
-                
-              <p className="text-2xl   md:text-2xl font-bold lg:text-3xl text-black bg-slate-200 p-2 md:p-3 lg:p-4 rounded">
+            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40">
+              <p className="text-lg md:text-2xl lg:text-3xl font-semibold text-white bg-opacity-80 bg-slate-800 px-4 py-2 rounded-md shadow-lg">
                 {slide.text}
               </p>
             </div>
