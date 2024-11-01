@@ -1,86 +1,99 @@
-
-import React,{useState} from 'react'
-
-import {FaBars,FaTimes} from 'react-icons/fa'
-import Logo from '../images/hhmalogo (1).jpg'
-
+import React, { useState } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
+import Logo from "../images/hhmalogo (1).jpg";
 import { Link } from "react-router-dom";
-import { motion } from 'framer-motion';
-
+import { motion } from "framer-motion";
 
 const Header = () => {
-  const [nav,setNav] = useState(false);
-  
+  const [nav, setNav] = useState(false);
 
-  const handleHamClick = ()=>setNav(!nav)
+  const toggleNav = () => setNav(!nav);
 
-
- 
   return (
-
-<div className=' font-semibold fixed font-sans z-40  left-0 top-0 w-full ease-in-out duration-500 '>
-  
-  <div className=' w-full m-auto bg-white flex justify-evenly items-center p-4 text-black'>
-    <div  className=' flex cursor-pointer'>
-<a href='/#'> 
-      <img className=' w-12' alt='Logo' src={Logo}/>  </a>
-      <a href='/#'><h2 className='w-{50px} m-4' >HHMA-SRI LANKA
-</h2></a>
-      
+    <header className="fixed w-full z-50 bg-white shadow-lg">
+      <div className="flex items-center justify-between px-6 py-4">
+        {/* Logo */}
+        <div className="flex items-center space-x-3">
+          <Link to="/">
+            <img src={Logo} alt="Logo" className="w-10 md:w-12" />
+          </Link>
+          <Link to="/">
+            <h2 className="text-lg font-semibold text-gray-800">
+              HHMA-SRI LANKA
+            </h2>
+          </Link>
         </div>
-  <ul className='hidden md:flex md:text-xs  lg:text-lg  '>
-    
-    <li className=' p-4 pr-7 scroll-s hover:text-red-700 hover:scale-105'>
-    <Link to='/#'> Home</Link>
-    </li><Link to="/about">
-    <li className=' p-4 pr-7 ho
-    ver:text-red-700 hover:scale-105 '>
-      About</li></Link>
-   <li className=' p-4 pr-7 hover:text-red-700 hover:scale-105 '>  <a href='/#service' >Service</a></li><a href='/#project'>
-   <li className=' p-4 pr-7 hover:text-red-700 hover:scale-105 '>Projects</li></a><a href='/#support'>
-   <li className=' p-4 pr-7 hover:text-red-700 hover:scale-105 '>Donate</li></a>
-  </ul>
-  <div>
-    
-  </div>
-  <div><Link to="/about">
-   <button className=' hidden border-none  md:flex items-center justify-center mt-2 type="button" class="focus:outline-none text-white bg-[#808080] hover:bg-black   text-xl rounded-2xl font-bold  px-5 py-2 mr-2 mb-2   '>Contact Us</button></Link>
-   </div>
 
-  
-  {/* mobile Icons */}
+        {/* Desktop Menu */}
+        <nav className="hidden md:flex space-x-8 font-medium text-gray-700">
+          <Link to="/" className="hover:text-red-500">
+            Home
+          </Link>
+          <Link to="/about" className="hover:text-red-500">
+            About
+          </Link>
+          <a href="#service" className="hover:text-red-500">
+            Service
+          </a>
+          <a href="#project" className="hover:text-red-500">
+            Projects
+          </a>
+          <a href="#support" className="hover:text-red-500">
+            Donate
+          </a>
+        </nav>
 
-  <div className=' md:hidden z-50 block cursor-pointer '  onClick={handleHamClick}>
-  
-        {!nav?<FaBars size={20} className=''/>:<FaTimes size={20} className='mt-0 text-black bg-white'/>}
-       
-  </div>
-  {/* Mobile menu */}
-  <motion.div 
-    initial={{opacity:0,y:100}}
-    animate={{opacity:1,y:0}}
-    transition={{duration:1,ease:"easeOut",delay:0.9}}  className={nav ? ' md:hidden text-black  absolute top-0 right-0 bottom-0 left-0 flex justify-center items-center w-full h-screen bg-black  text-center ease-in-out duration-500':'md:hidden  absolute top-0 right-0 bottom-0 left-[-100%] flex justify-center items-center w-full h-screen bg-slate-500  text-center ease-in-out duration-500 '}>
-  <ul>
-    
-    <li onClick={handleHamClick} className='p-4 text-2xl hover:text-gray-900  text-white '>
-      <Link to="/">Home</Link>
-    </li>
-    <li onClick={handleHamClick} className='p-4 text-2xl hover:text-gray-900  text-white  '>
-      <Link to="/about">About</Link>
-    </li>
-   <li onClick={handleHamClick} className='p-4 text-2xl hover:text-gray-900   text-white '><a href="#service">Service</a></li>
-   <li onClick={handleHamClick} className='p-4 text-2xl hover:text-gray-900   text-white '><a href="#project
-   ">Project</a></li>
-   <li onClick={handleHamClick} className='p-4 text-2xl hover:text-gray-900   text-white '><a href="/#support">Donate</a></li>
-   <Link to="/about"><button onClick={handleHamClick} className='type="button" class="focus:outline-none text-black bg-[#808080] hover:bg-white hover:text-black focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-green-600 dark:hover:bg-white dark:focus:ring-green-800" '>Contact Us</button></Link>
-   
-  </ul>
-  </motion.div>
-  </div>
-</div>
+        {/* Contact Us Button - Desktop */}
+        <Link to="/contact" className="hidden md:inline-block">
+          <button className="bg-gray-800 text-white hover:bg-gray-900 px-4 py-2 rounded-lg transition">
+            Contact Us
+          </button>
+        </Link>
 
- 
-  )
-}
+        {/* Mobile Menu Icon */}
+        <div className="md:hidden" onClick={toggleNav}>
+          <FaBars size={24} />
+        </div>
+      </div>
 
-export default Header
+      {/* Mobile Slide-In Menu */}
+      <motion.div
+        initial={{ x: "100%" }}
+        animate={{ x: nav ? "0%" : "100%" }}
+        transition={{ duration: 0.4, ease: "easeOut" }}
+        className={`fixed inset-y-0 right-0 w-3/4 bg-gray-800 text-white flex flex-col justify-center items-center space-y-8 text-lg font-semibold ${
+          nav ? "block" : "hidden"
+        } md:hidden`}
+      >
+        <ul className=" space-y-6 p-6">
+          <div className="absolute top-4 right-4">
+            <FaTimes onClick={toggleNav} size={24} />
+          </div>
+          <li onClick={toggleNav}>
+            <Link to="/">Home</Link>
+          </li>
+          <li onClick={toggleNav}>
+            <Link to="/about">About</Link>
+          </li>
+          <li onClick={toggleNav}>
+            <a href="#service">Service</a>
+          </li>
+          <li onClick={toggleNav}>
+            <a href="#project">Projects</a>
+          </li>
+          <li onClick={toggleNav}>
+            <a href="#support">Donate</a>
+          </li>
+        </ul>
+
+        <Link to="/contact" onClick={toggleNav}>
+          <button className="bg-white text-gray-800 hover:bg-gray-200 px-5 py-2 rounded-lg transition">
+            Contact Us
+          </button>
+        </Link>
+      </motion.div>
+    </header>
+  );
+};
+
+export default Header;
