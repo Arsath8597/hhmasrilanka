@@ -21,6 +21,7 @@ const Header = () => {
       <div className="grid items-center justify-between w-full px-6 py-4">
         <div className="flex items-start justify-between w-[90vw] ">
           {/* Logo */}
+          <div></div>
           <div className="flex items-center space-x-3">
             <Link to="/">
               <img src={Logo} alt="Logo" className="w-10 md:w-12" />
