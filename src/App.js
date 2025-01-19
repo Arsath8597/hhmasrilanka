@@ -22,6 +22,10 @@ import Qurbani from "./Components/Pages/Qurbani";
 import HandPump1 from "./Components/Pages/HandPump1";
 import HandePump from "./Components/Pages/HandePump";
 import Espoir from "./Components/Pages/espoir";
+import Community from "./Components/Pages/Community";
+import Orphans from "./Components/Pages/orphans";
+import Family from "./Components/Pages/family";
+import Quran from "./Components/Pages/quran";
 import Waterwellforcommunity from "./Components/Pages/waterwellforcommunity";
 
 function App() {
@@ -45,14 +49,18 @@ function App() {
           <Route path="/CleanWater" element={<CleanWater />} />
           <Route path="/Zakat" element={<Zakat />} />
           <Route path="/DeepWater" element={<DeepWater />} />
+          <Route path="/quran" element={<Quran />} />
+          <Route path="/orphans" element={<Orphans />} />
           <Route path="/WaterStation" element={<WaterStation />} />
           <Route path="/Sadaqa" element={<Sadaqa />} />
           <Route path="/WaterWell" element={<WaterWell />} />
           <Route path="/WaterLife" element={<WaterLife />} />
           <Route path="/ramadan" element={<Ramadan />} />
           <Route path="/masjid" element={<Masjid />} />
-          <Route path="/handpumb" element={<HandPump1 />} />
+          <Route path="/family" element={<Family />} />
+          <Route path="/handpumb1" element={<HandPump1 />} />
           <Route path="/espoir" element={<Espoir />} />
+          <Route path="/community" element={<Community />} />
         </Routes>
         <Footer />
       </BrowserRouter>

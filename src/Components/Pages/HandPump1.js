@@ -1,13 +1,12 @@
 import React from "react";
-import img1 from "../../images/WhatsApp Image 2025-01-16 at 15.34.46_2816e352 (2).jpg";
-import img2 from "../../images/WhatsApp Image 2025-01-16 at 15.34.46_13442f7b (2).jpg";
-import img3 from "../../images/WhatsApp Image 2025-01-16 at 15.34.47_551ce9d6 (2).jpg";
-import img4 from "../../images/WhatsApp Image 2025-01-16 at 15.34.47_e8ad80dd (2).jpg";
-import img5 from "../../images/WhatsApp Image 2025-01-16 at 15.34.48_d7f79fde (2).jpg";
-import img6 from "../../images/WhatsApp Image 2025-01-16 at 15.34.48_ed94d1e0 (2).jpg";
-import img7 from "../../images/WhatsApp Image 2025-01-16 at 15.34.49_4ffe9dea (2).jpg";
-import img8 from "../../images/WhatsApp Image 2025-01-16 at 15.34.45_31dcb7d8 (2).jpg";
-import img9 from "../../images/WhatsApp Image 2025-01-16 at 15.34.45_47cc19af (2).jpg";
+import img1 from "../../images/WhatsApp Image 2025-01-16 at 15.42.23_7d7e9faa (2).jpg";
+import img2 from "../../images/WhatsApp Image 2025-01-16 at 15.42.24_17cf1d89 (2).jpg";
+import img3 from "../../images/WhatsApp Image 2025-01-16 at 15.42.24_3426d153 (2).jpg";
+import img4 from "../../images/WhatsApp Image 2025-01-16 at 15.42.24_e57de0a5 (2).jpg";
+import img5 from "../../images/WhatsApp Image 2025-01-16 at 15.42.25_74fa6b13 (2).jpg";
+import img6 from "../../images/WhatsApp Image 2025-01-16 at 15.42.25_21360f8c (2).jpg";
+import img7 from "../../images/WhatsApp Image 2025-01-16 at 15.42.26_55cea660 (2).jpg";
+import img8 from "../../images/WhatsApp Image 2025-01-16 at 15.42.25_21360f8c (2).jpg";
 
 export const CleanWater = () => {
   return (
@@ -42,7 +41,6 @@ export const CleanWater = () => {
           May Allah reward them🤲
         </p>{" "}
         <img className="rounded-2xl my-2 px-2" src={img8} alt="" />
-        <img className="rounded-2xl my-2 px-2" src={img9} alt="" />
       </a>
       <div className="p-6">
         <p className="mt-8">

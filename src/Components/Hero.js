@@ -62,35 +62,35 @@ const Hero = () => {
           title: " COMMUNITY WATER WELL ",
           description:
             "Help us build Community Water Well in the Trincomalee region of Sri Lanka.  .....",
-          link: "/waterwellforcommunity",
+          link: "/community",
         },
         {
           img: Logo12,
           title: "ORPHANS CARE RELIEF PROGRAM",
           description:
             "💜 Most of the children we help don't have their parents, helping  .....",
-          link: "/waterwellforcommunity",
+          link: "/orphans",
         },
         {
           img: Logo15,
           title: "Water Well For 1 Family",
           description:
             "💧The Prophet, peace be upon him, said: The best charity.....",
-          link: "/waterwellforcommunity",
+          link: "/family",
         },
         {
           img: Logo16,
           title: "QURAN GIVING ",
           description:
             "The Quran you donated was delivered to the children in the  .....",
-          link: "/waterwellforcommunity",
+          link: "/quran",
         },
         {
           img: img15,
           title: "Hand Pump for Family",
           description:
             "Increasing access to clean water remains a pressing challenge globally .....",
-          link: "/handpump",
+          link: "/handpump1",
         },
         {
           img: img14,
@@ -124,12 +124,12 @@ const Hero = () => {
               {title}
             </h2>
             <p className="text-center text-gray-600 mt-2">{description}</p>
-            <Link
-              to={link}
+            <a
+              href={link}
               className="block w-fit mx-auto mt-4 text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5"
             >
               See More
-            </Link>
+            </a>
           </div>
         </div>
       ))}

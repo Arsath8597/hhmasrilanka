@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../images/hhmalogo (1).jpg";
-import { Link } from "react-router-dom";
+import { a } from "react-router-dom";
 import { motion } from "framer-motion";
 import {
   FaBars,
@@ -23,24 +23,24 @@ const Header = () => {
           {/* Logo */}
           <div></div>
           <div className="flex items-center space-x-3">
-            <Link to="/">
+            <a href="/">
               <img src={Logo} alt="Logo" className="w-10 md:w-12" />
-            </Link>
-            <Link to="/">
+            </a>
+            <a href="/">
               <h2 className="text-lg font-semibold text-gray-800">
                 HHMA-SRI LANKA
               </h2>
-            </Link>
+            </a>
           </div>
 
           {/* Desktop Menu */}
           <nav className="hidden md:flex space-x-8 font-medium text-gray-700">
-            <Link to="/" className="hover:text-red-500">
+            <a href="/" className="hover:text-red-500">
               Home
-            </Link>
-            <Link to="/about" className="hover:text-red-500">
+            </a>
+            <a href="/about" className="hover:text-red-500">
               About
-            </Link>
+            </a>
             <a href="#service" className="hover:text-red-500">
               Service
             </a>
@@ -53,11 +53,11 @@ const Header = () => {
           </nav>
 
           {/* Contact Us Button - Desktop */}
-          <Link to="/about" className="hidden md:inline-block">
+          <a href="/about" className="hidden md:inline-block">
             <button className="bg-gray-800 text-white hover:bg-gray-900 px-4 py-2 rounded-lg transition">
               Contact Us
             </button>
-          </Link>
+          </a>
 
           {/* Mobile Menu Icon */}
           <div className="md:hidden" onClick={toggleNav}>
@@ -120,10 +120,10 @@ const Header = () => {
             <FaTimes onClick={toggleNav} size={24} />
           </div>
           <li onClick={toggleNav}>
-            <Link to="/">Home</Link>
+            <a href="/">Home</a>
           </li>
           <li onClick={toggleNav}>
-            <Link to="/about">About</Link>
+            <a href="/about">About</a>
           </li>
           <li onClick={toggleNav}>
             <a href="#service">Service</a>
@@ -136,11 +136,11 @@ const Header = () => {
           </li>
         </ul>
 
-        <Link to="/about" onClick={toggleNav}>
+        <a href="/about" onClick={toggleNav}>
           <button className="bg-white text-gray-800 hover:bg-gray-200 px-5 py-2 rounded-lg transition">
             Contact Us
           </button>
-        </Link>
+        </a>
       </motion.div>
     </header>
   );
