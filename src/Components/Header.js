@@ -28,7 +28,7 @@ const Header = () => {
             </a>
             <a href="/">
               <h2 className="text-lg font-semibold text-gray-800">
-                HHMA-SRI LANKA
+                HHMA Sri Lanka
               </h2>
             </a>
           </div>
