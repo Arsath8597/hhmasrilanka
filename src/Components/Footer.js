@@ -32,8 +32,8 @@ const Footer = () => {
                   <span className="mr-3 text-primary">
                     <BiLogoGmail />
                   </span>
-                  <a href="mailto:info@hhmasrilanka.org">
-                    info@hhmasrilanka.org
+                  <a href="mailto:hhmasrilanka@gmail.com">
+                    hhmasrilanka@gmail.com
                   </a>
                 </p>
                 <p className="flex items-center text-xl mt-5 font-medium text-dark">

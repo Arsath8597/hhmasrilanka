@@ -98,7 +98,7 @@ const Header = () => {
             <FaTwitter size={20} />
           </a>
           <a
-            href="hhmasrilanka@gmail.com"
+            href="mailto:hhmasrilanka@gmail.com"
             className="text-gray-700 hover:text-red-500"
           >
             <FaEnvelope size={20} />
