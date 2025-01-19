@@ -8,13 +8,15 @@ import img14 from "../images/WhatsApp Image 2024-06-30 at 11.35.15 AM (1).jpeg";
 import img15 from "../images/WhatsApp Image 2024-07-12 at 9.45.10 AM.jpeg";
 import Logo4 from "../images/IMG_20230319_162251.jpg";
 import Logo5 from "../images/WhatsApp Image 2023-10-25 at 15.20.18.jpeg";
-import Logo6 from "../images/WhatsApp Image 2025-01-16 at 15.25.25_4462dd5c (3).jpg";
+import Logo6 from "../images/WhatsApp Image 2025-01-16 at 15.25.25_791637e9 (2).jpg";
 import Logo7 from "../images/WhatsApp Image 2025-01-16 at 15.34.46_13442f7b (2).jpg";
 import Logo9 from "../images/WhatsApp Image 2025-01-16 at 15.38.00_ab80191b (2).jpg";
-import Logo10 from "../images/WhatsApp Image 2025-01-16 at 15.42.24_3426d153 (2).jpg";
-import Logo11 from "../images/WhatsApp Image 2025-01-16 at 15.47.01_409a2396 (2).jpg";
-import Logo12 from "../images/WhatsApp Image 2025-01-16 at 15.52.56_90a873d8 (2).jpg";
-import Logo13 from "../images/WhatsApp Image 2025-01-16 at 15.38.00_ab80191b (2).jpg";
+import Logo10 from "../images/WhatsApp Image 2025-01-16 at 15.42.24_17cf1d89 (2).jpg";
+import Logo11 from "../images/WhatsApp Image 2025-01-16 at 15.46.59_7cc5def7 (2).jpg";
+import Logo12 from "../images/WhatsApp Image 2025-01-19 at 10.31.58_c4cd0e71 (2).jpg";
+import Logo13 from "../images/WhatsApp Image 2025-01-16 at 16.07.18_b9de7eb6 (2).jpg";
+import Logo15 from "../images/WhatsApp Image 2025-01-16 at 16.03.17_1b59582a (2).jpg";
+import Logo16 from "../images/WhatsApp Image 2025-01-16 at 16.06.41_c9e7dea8 (2).jpg";
 
 const Hero = () => {
   return (
@@ -25,28 +27,28 @@ const Hero = () => {
           title: "RAMADAN FOOD PROGRAM 2024/1445H",
           description:
             "✨Join HHMA Sri Lanka this Ramadan in supporting families in need with our Food Packs......",
-          link: "/waterwellforcommunity",
+          link: "/ramadan",
         },
         {
           img: Logo7,
           title: "WATER WELL FOR THE MASJID",
           description:
             "Alhamdulilah ❤ A community water well was constructed and provided to the  .....",
-          link: "/waterwellforcommunity",
+          link: "/masjid",
         },
         {
           img: Logo13,
           title: " HAND PUMP WATER WELL ",
           description:
             "Alhamdulilah, a new hand pump water well has been successfully .....",
-          link: "/waterwellforcommunity",
+          link: "/handpumb1",
         },
         {
           img: Logo10,
           title: " Espoir et Avenir with HHMA Sri Lanka 💧Community Water Wel",
           description:
             "💚One of many Water Project Completed! Thank you for your valuable.....",
-          link: "/waterwellforcommunity",
+          link: "/espoir",
         },
         {
           img: Logo8,
@@ -67,6 +69,20 @@ const Hero = () => {
           title: "ORPHANS CARE RELIEF PROGRAM",
           description:
             "💜 Most of the children we help don't have their parents, helping  .....",
+          link: "/waterwellforcommunity",
+        },
+        {
+          img: Logo15,
+          title: "Water Well For 1 Family",
+          description:
+            "💧The Prophet, peace be upon him, said: The best charity.....",
+          link: "/waterwellforcommunity",
+        },
+        {
+          img: Logo16,
+          title: "QURAN GIVING ",
+          description:
+            "The Quran you donated was delivered to the children in the  .....",
           link: "/waterwellforcommunity",
         },
         {
