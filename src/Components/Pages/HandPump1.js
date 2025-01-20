@@ -1,12 +1,12 @@
 import React from "react";
-import img1 from "../../images/WhatsApp Image 2025-01-16 at 15.42.23_7d7e9faa (2).jpg";
-import img2 from "../../images/WhatsApp Image 2025-01-16 at 15.42.24_17cf1d89 (2).jpg";
-import img3 from "../../images/WhatsApp Image 2025-01-16 at 15.42.24_3426d153 (2).jpg";
-import img4 from "../../images/WhatsApp Image 2025-01-16 at 15.42.24_e57de0a5 (2).jpg";
-import img5 from "../../images/WhatsApp Image 2025-01-16 at 15.42.25_74fa6b13 (2).jpg";
-import img6 from "../../images/WhatsApp Image 2025-01-16 at 15.42.25_21360f8c (2).jpg";
-import img7 from "../../images/WhatsApp Image 2025-01-16 at 15.42.26_55cea660 (2).jpg";
-import img8 from "../../images/WhatsApp Image 2025-01-16 at 15.42.25_21360f8c (2).jpg";
+import img1 from "../../images/WhatsApp Image 2025-01-16 at 15.38.00_ab80191b (2).jpg";
+import img2 from "../../images/WhatsApp Image 2025-01-16 at 15.38.02_597e8cef (2).jpg";
+import img3 from "../../images/WhatsApp Image 2025-01-16 at 15.38.02_597e8cef (2).jpg";
+import img4 from "../../images/WhatsApp Image 2025-01-16 at 15.38.02_a4a48145 (2).jpg";
+import img5 from "../../images/WhatsApp Image 2025-01-16 at 15.38.03_01fc4c02 (2).jpg";
+import img6 from "../../images/WhatsApp Image 2025-01-16 at 15.38.03_22c1efc7 (2).jpg";
+import img7 from "../../images/WhatsApp Image 2025-01-16 at 15.38.03_ec790cac (2).jpg";
+import img8 from "../../images/WhatsApp Image 2025-01-16 at 15.38.04_3c409404 (2).jpg";
 
 export const CleanWater = () => {
   return (

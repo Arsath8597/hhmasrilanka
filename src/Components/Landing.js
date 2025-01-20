@@ -14,7 +14,8 @@ function Landing() {
     <div className=" overflow-hidden">
       <Slider />
       {/* <Card/> */}
-      <Support />
+      {/* <Support /> */}
+      <h1 className="text-center mt-10 text-3xl font-bold">OUR PROGRAMS</h1>
       <Hero />
       <Phara />
     </div>

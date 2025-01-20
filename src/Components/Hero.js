@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Logo8 from "../images/WhatsApp Image 2024-01-03 at 19.00.55_e8264ce5.jpg";
+import Logo8 from "../images/WhatsApp Image 2025-01-20 at 16.20.32_8146151f.jpg";
 import Logo2 from "../images/IMG-20230503-WA0114.jpg";
 import img14 from "../images/WhatsApp Image 2024-06-30 at 11.35.15 AM (1).jpeg";
 import img15 from "../images/WhatsApp Image 2024-07-12 at 9.45.10 AM.jpeg";
@@ -45,7 +45,7 @@ const Hero = () => {
         },
         {
           img: Logo10,
-          title: " Espoir et Avenir with HHMA Sri Lanka 💧Community Water Wel",
+          title: " Espoir et Avenir with HHMA Sri Lanka 💧Community Water Well",
           description:
             "💚One of many Water Project Completed! Thank you for your valuable.....",
           link: "/espoir",
