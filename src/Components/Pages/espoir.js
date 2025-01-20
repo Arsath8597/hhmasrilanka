@@ -47,9 +47,8 @@ export const CleanWater = () => {
 
       <div className="p-6">
         <p className="mt-8">
-          www.hhmasrilanka.org <br />
           📩 hhmasrilanka@gmail.com <br />
-          📞 +94 76 731 3385 Telephone/WhatsAp
+          📞 +94 76 731 3385 Telephone/WhatsApp
         </p>
       </div>
     </div>

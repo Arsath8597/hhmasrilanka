@@ -42,8 +42,9 @@ export const CleanWater = () => {
         <img className="rounded-2xl my-2 px-2" src={img5} alt="" />
         <img className="rounded-2xl my-2 px-2" src={img4} alt="" />
         <p className="m-8">
-          Monthly Orphan Care Relief 💜 With £30 | €35 | $40. a month you give a
-          poor child a chance to get an education.
+          <p className="font-bold"> Monthly Orphan Care Relief</p>
+          <br /> 💜 With £30 | €35 | $40. a month you give a poor child a chance
+          to get an education.
         </p>{" "}
       </a>
       <div className="p-6">
@@ -60,8 +61,18 @@ export const CleanWater = () => {
           doesn't have to worry about work, hunger or begging for money. He will
           only focus on what he can learn in school. The knowledge he acquires
           through education is the basic foundation of his future.
-          <br /> Give the gift of a brighter future for just €35! By sponsoring
-          an orphan, you can provide them with education, food, drinking wat{" "}
+          <br />
+          Give the gift of a brighter future for just €35! By sponsoring an
+          orphan, you can provide them with education, food, drinking water,
+          medicine and health. 💚 Join us in making a difference in the life of
+          a child in need.{" "}
+        </p>
+        <p className="my-5">
+          Our mission is to allow disadvantaged children and orphans as peaceful
+          and happy a childhood as possible.
+          <br /> www.hhmasrilanka.org <br />
+          📩 hhmasrilanka@gmail.com <br />
+          📞 +94 76 731 3385
         </p>
       </div>
     </div>

@@ -39,7 +39,7 @@ export const CleanWater = () => {
           💧This vital resource will provide clean and sustainable water to
           those in desperate need, making a lasting impact on their lives.{" "}
           <br />
-          join hands this new year and make this dream a reality. Your
+          Let’s join hands this new year and make this dream a reality. Your
           contribution, no matter the size, will bring us closer to this goal.
         </p>
         <img className="rounded-2xl my-2 px-2" src={img6} alt="" />
@@ -55,9 +55,10 @@ export const CleanWater = () => {
       </a>
       <div className="p-6">
         <p className="mt-8">
-          Donate now and earn the reward of building a water well. 👉 Donate
-          today to HHMA Sri Lanka hhmasrilanka.org 📩 hhmasrilanka@gmail.com 📞
-          +94 76 731 3385 [Official WhatsApp
+          Donate now and earn the reward of building a water well. <br />
+          👉 Donate today to HHMA Sri Lanka <br /> hhmasrilanka.org 📩
+          hhmasrilanka@gmail.com <br />
+          📞 +94 76 731 3385 [Official WhatsApp]
         </p>
       </div>
     </div>

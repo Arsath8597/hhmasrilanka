@@ -33,6 +33,10 @@ export const CleanWater = () => {
         <p className="m-4 ">
           The total cost of a hand pump water well is £115 | €130 | $140. One
           family people are benefited through this well.
+          <br />
+          <br />
+          Where there is no water, there is no education, no health, no dignity,
+          no life. Give Water, Give Education, Give Dignity and Give Life.
         </p>
         <img className="rounded-2xl my-2 px-2" src={img6} alt="" />
         <img className="rounded-2xl my-2 px-2" src={img7} alt="" />

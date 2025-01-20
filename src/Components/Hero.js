@@ -90,7 +90,7 @@ const Hero = () => {
           title: "Hand Pump for Family",
           description:
             "Increasing access to clean water remains a pressing challenge globally .....",
-          link: "/handpump1",
+          link: "/handpump",
         },
         {
           img: img14,

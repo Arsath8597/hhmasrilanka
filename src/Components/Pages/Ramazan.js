@@ -33,12 +33,6 @@ export const CleanWater = () => {
         </p>
         <img className="rounded-2xl my-2 px-2" src={img4} alt="" />
         <img className="rounded-2xl my-2 px-2" src={img5} alt="" />
-        <p className="m-4 ">
-          ✨Join HHMA Sri Lanka this Ramadan in supporting families in need with
-          our Food Packs. By donating to our program, you can help provide
-          nutritious food to vulnerable families who are struggling to make ends
-          meet.
-        </p>
         <img className="rounded-2xl my-2 px-2" src={img6} alt="" />
         <img className="rounded-2xl my-2 px-2" src={img7} alt="" />
         <p className="m-8">
@@ -71,6 +65,16 @@ export const CleanWater = () => {
           and suitable for diverse dietary needs to feed the fasting. Donate
           Iftar meals this Ramadan 2025 and provide sustenance with HHMA Sri
           Lanka.
+        </p>
+        <br />
+        <br />
+        <br />
+        <p>
+          💜Donate your Zakat, Sadaqah, or Fidya to feed the fasting during this
+          blessed month through Iftar packages. <br />
+          🌐 www.hhmasrilanka.org <br />
+          📩 hhmasrilanka@gmail.com <br />
+          📞 +94 76 731 3385 Telephone/WhatsAp
         </p>
       </div>
     </div>

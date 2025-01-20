@@ -43,6 +43,13 @@ const Footer = () => {
               </div>
             </div>
 
+            <LinkGroup header="Quick Links">
+              <NavLink link="/#" label="Premium Support" />
+              <NavLink link="/#" label="Our Services" />
+              <NavLink link="/#" label="Know Our Team" />
+              <NavLink link="/#" label="Download App" />
+            </LinkGroup>
+
             <div className="w-full px-4 sm:w-1/2 lg:w-3/12">
               <div className="w-full mb-10">
                 <h4 className="text-lg font-semibold mb-9 text-dark">

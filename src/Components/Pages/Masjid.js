@@ -47,8 +47,11 @@ export const CleanWater = () => {
       <div className="p-6">
         <p className="mt-8">
           Be a part of the change! Donate today and sponsor a life-saving
-          project like this. Together, we can make a difference. 🌎
-          www.hhmasrilanka.org 📩 hhmasrilanka@gmail.com 📞 +94 76 731 3385
+          project like this. Together, we can make a difference. <br />
+          🌎 www.hhmasrilanka.org
+          <br /> 📩 hhmasrilanka@gmail.com
+          <br />
+          📞 +94 76 731 3385
         </p>
       </div>
     </div>
